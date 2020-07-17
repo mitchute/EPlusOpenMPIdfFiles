@@ -1,0 +1,4385 @@
+{
+  "Building": {
+    "Simple One Zone (Wireframe DXF)": {
+      "loads_convergence_tolerance_value": 0.04,
+      "maximum_number_of_warmup_days": 30,
+      "minimum_number_of_warmup_days": 6,
+      "north_axis": 0,
+      "solar_distribution": "MinimalShadowing",
+      "temperature_convergence_tolerance_value": 0.004,
+      "terrain": "Suburbs"
+    }
+  },
+  "BuildingSurface:Detailed": {
+    "Zn001:Flr001": {
+      "construction_name": "FLOOR",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Adiabatic",
+      "sun_exposure": "NoSun",
+      "surface_type": "Floor",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 0.0,
+          "vertex_z_coordinate": 0.0
+        },
+        {
+          "vertex_x_coordinate": 0.0,
+          "vertex_y_coordinate": 0.0,
+          "vertex_z_coordinate": 0.0
+        },
+        {
+          "vertex_x_coordinate": 0.0,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 0.0
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 0.0
+        }
+      ],
+      "view_factor_to_ground": 1.0,
+      "wind_exposure": "NoWind",
+      "zone_name": "ZONE ONE"
+    },
+    "Zn001:Roof001": {
+      "construction_name": "ROOF31",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Roof",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0.0,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 0.0,
+          "vertex_y_coordinate": 0.0,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 0.0,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 4.572
+        }
+      ],
+      "view_factor_to_ground": 0,
+      "wind_exposure": "WindExposed",
+      "zone_name": "ZONE ONE"
+    },
+    "Zn001:Wall001": {
+      "construction_name": "R13WALL",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 4.572
+        }
+      ],
+      "view_factor_to_ground": 0.5,
+      "wind_exposure": "WindExposed",
+      "zone_name": "ZONE ONE"
+    },
+    "Zn001:Wall002": {
+      "construction_name": "R13WALL",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 4.572
+        }
+      ],
+      "view_factor_to_ground": 0.5,
+      "wind_exposure": "WindExposed",
+      "zone_name": "ZONE ONE"
+    },
+    "Zn001:Wall003": {
+      "construction_name": "R13WALL",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 15.24,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 4.572
+        }
+      ],
+      "view_factor_to_ground": 0.5,
+      "wind_exposure": "WindExposed",
+      "zone_name": "ZONE ONE"
+    },
+    "Zn001:Wall004": {
+      "construction_name": "R13WALL",
+      "number_of_vertices": 4,
+      "outside_boundary_condition": "Outdoors",
+      "sun_exposure": "SunExposed",
+      "surface_type": "Wall",
+      "vertices": [
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 4.572
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 15.24,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 0
+        },
+        {
+          "vertex_x_coordinate": 0,
+          "vertex_y_coordinate": 0,
+          "vertex_z_coordinate": 4.572
+        }
+      ],
+      "view_factor_to_ground": 0.5,
+      "wind_exposure": "WindExposed",
+      "zone_name": "ZONE ONE"
+    }
+  },
+  "Construction": {
+    "Air_Wall": {
+      "outside_layer": "Air_Wall_Material"
+    },
+    "AtticRoofDeck": {
+      "layer_2": "G02 16mm plywood",
+      "outside_layer": "F12 Asphalt shingles"
+    },
+    "Bulk Storage Products": {
+      "outside_layer": "Bulk Storage Products Material"
+    },
+    "Composite 2-Core Filled Concrete Block Insulated": {
+      "layer_2": "Composite 2-Core Filled Concrete Block Insulated #2",
+      "layer_3": "Composite 2-Core Filled Concrete Block Insulated #1",
+      "outside_layer": "Composite 2-Core Filled Concrete Block Insulated #3"
+    },
+    "Composite 2-Core Filled Concrete Block Insulated 2": {
+      "layer_2": "Composite 2-Core Filled Concrete Block Insulated #1",
+      "layer_3": "Composite 2-Core Filled Concrete Block Insulated #2",
+      "outside_layer": "Composite 2-Core Filled Concrete Block Insulated #3"
+    },
+    "Composite 2-Core Filled Concrete Block Insulated 3": {
+      "layer_2": "Composite 2-Core Filled Concrete Block Insulated #3",
+      "layer_3": "Composite 2-Core Filled Concrete Block Insulated #1",
+      "outside_layer": "Composite 2-Core Filled Concrete Block Insulated #2"
+    },
+    "Composite 2-Core Filled Concrete Block Uninsulated": {
+      "layer_2": "Composite 2-Core Filled Concrete Block Uninsulated #2",
+      "layer_3": "Composite 2-Core Filled Concrete Block Uninsulated #1",
+      "outside_layer": "Composite 2-Core Filled Concrete Block Uninsulated #3"
+    },
+    "Composite 2-Core Filled Concrete Block Uninsulated 2": {
+      "layer_2": "Composite 2-Core Filled Concrete Block Uninsulated #1",
+      "layer_3": "Composite 2-Core Filled Concrete Block Uninsulated #2",
+      "outside_layer": "Composite 2-Core Filled Concrete Block Uninsulated #3"
+    },
+    "Composite 2-Core Filled Concrete Block Uninsulated 3": {
+      "layer_2": "Composite 2-Core Filled Concrete Block Uninsulated #3",
+      "layer_3": "Composite 2-Core Filled Concrete Block Uninsulated #1",
+      "outside_layer": "Composite 2-Core Filled Concrete Block Uninsulated #2"
+    },
+    "Composite 2x4 Steel Stud R11": {
+      "layer_2": "Composite 2x4 Steel Stud R11 #2",
+      "layer_3": "Composite 2x4 Steel Stud R11 #1",
+      "outside_layer": "Composite 2x4 Steel Stud R11 #3"
+    },
+    "Composite 2x4 Steel Stud R11 2": {
+      "layer_2": "Composite 2x4 Steel Stud R11 #1",
+      "layer_3": "Composite 2x4 Steel Stud R11 #2",
+      "outside_layer": "Composite 2x4 Steel Stud R11 #3"
+    },
+    "Composite 2x4 Steel Stud R11 3": {
+      "layer_2": "Composite 2x4 Steel Stud R11 #3",
+      "layer_3": "Composite 2x4 Steel Stud R11 #1",
+      "outside_layer": "Composite 2x4 Steel Stud R11 #2"
+    },
+    "Composite 2x4 Wood Stud R11": {
+      "layer_2": "Composite 2x4 Wood Stud R11 #2",
+      "layer_3": "Composite 2x4 Wood Stud R11 #1",
+      "outside_layer": "Composite 2x4 Wood Stud R11 #3"
+    },
+    "Composite 2x4 Wood Stud R11 2": {
+      "layer_2": "Composite 2x4 Wood Stud R11 #1",
+      "layer_3": "Composite 2x4 Wood Stud R11 #2",
+      "outside_layer": "Composite 2x4 Wood Stud R11 #3"
+    },
+    "Composite 2x4 Wood Stud R11 3": {
+      "layer_2": "Composite 2x4 Wood Stud R11 #3",
+      "layer_3": "Composite 2x4 Wood Stud R11 #1",
+      "outside_layer": "Composite 2x4 Wood Stud R11 #2"
+    },
+    "Composite 2x6 Steel Stud R19": {
+      "layer_2": "Composite 2x6 Steel Stud R19 #2",
+      "layer_3": "Composite 2x6 Steel Stud R19 #1",
+      "outside_layer": "Composite 2x6 Steel Stud R19 #3"
+    },
+    "Composite 2x6 Steel Stud R19 2": {
+      "layer_2": "Composite 2x6 Steel Stud R19 #1",
+      "layer_3": "Composite 2x6 Steel Stud R19 #2",
+      "outside_layer": "Composite 2x6 Steel Stud R19 #3"
+    },
+    "Composite 2x6 Steel Stud R19 3": {
+      "layer_2": "Composite 2x6 Steel Stud R19 #3",
+      "layer_3": "Composite 2x6 Steel Stud R19 #1",
+      "outside_layer": "Composite 2x6 Steel Stud R19 #2"
+    },
+    "Composite 2x6 Wood Stud R19": {
+      "layer_2": "Composite 2x6 Wood Stud R19 #2",
+      "layer_3": "Composite 2x6 Wood Stud R19 #1",
+      "outside_layer": "Composite 2x6 Wood Stud R19 #3"
+    },
+    "Composite 2x6 Wood Stud R19 2": {
+      "layer_2": "Composite 2x6 Wood Stud R19 #1",
+      "layer_3": "Composite 2x6 Wood Stud R19 #2",
+      "outside_layer": "Composite 2x6 Wood Stud R19 #3"
+    },
+    "Composite 2x6 Wood Stud R19 3": {
+      "layer_2": "Composite 2x6 Wood Stud R19 #3",
+      "layer_3": "Composite 2x6 Wood Stud R19 #1",
+      "outside_layer": "Composite 2x6 Wood Stud R19 #2"
+    },
+    "Composite Brick Foam 2x4 Steel Stud R11": {
+      "layer_2": "Composite Brick Foam 2x4 Steel Stud R11 #2",
+      "layer_3": "Composite Brick Foam 2x4 Steel Stud R11 #1",
+      "outside_layer": "Composite Brick Foam 2x4 Steel Stud R11 #3"
+    },
+    "Composite Brick Foam 2x4 Steel Stud R11 2": {
+      "layer_2": "Composite Brick Foam 2x4 Steel Stud R11 #1",
+      "layer_3": "Composite Brick Foam 2x4 Steel Stud R11 #2",
+      "outside_layer": "Composite Brick Foam 2x4 Steel Stud R11 #3"
+    },
+    "Composite Brick Foam 2x4 Steel Stud R11 3": {
+      "layer_2": "Composite Brick Foam 2x4 Steel Stud R11 #3",
+      "layer_3": "Composite Brick Foam 2x4 Steel Stud R11 #1",
+      "outside_layer": "Composite Brick Foam 2x4 Steel Stud R11 #2"
+    },
+    "Composite Brick Foam 2x6 Steel Stud R19": {
+      "layer_2": "Composite Brick Foam 2x6 Steel Stud R19 #2",
+      "layer_3": "Composite Brick Foam 2x6 Steel Stud R19 #1",
+      "outside_layer": "Composite Brick Foam 2x6 Steel Stud R19 #3"
+    },
+    "Composite Brick Foam 2x6 Steel Stud R19 2": {
+      "layer_2": "Composite Brick Foam 2x6 Steel Stud R19 #1",
+      "layer_3": "Composite Brick Foam 2x6 Steel Stud R19 #2",
+      "outside_layer": "Composite Brick Foam 2x6 Steel Stud R19 #3"
+    },
+    "Composite Brick Foam 2x6 Steel Stud R19 3": {
+      "layer_2": "Composite Brick Foam 2x6 Steel Stud R19 #3",
+      "layer_3": "Composite Brick Foam 2x6 Steel Stud R19 #1",
+      "outside_layer": "Composite Brick Foam 2x6 Steel Stud R19 #2"
+    },
+    "Composite Concrete/Foam/Concrete With Plastic Connectors": {
+      "layer_2": "Composite Concrete/Foam/Concrete With Plastic Connectors #2",
+      "layer_3": "Composite Concrete/Foam/Concrete With Plastic Connectors #1",
+      "outside_layer": "Composite Concrete/Foam/Concrete With Plastic Connectors #3"
+    },
+    "Composite Concrete/Foam/Concrete With Plastic Connectors 2": {
+      "layer_2": "Composite Concrete/Foam/Concrete With Plastic Connectors #1",
+      "layer_3": "Composite Concrete/Foam/Concrete With Plastic Connectors #2",
+      "outside_layer": "Composite Concrete/Foam/Concrete With Plastic Connectors #3"
+    },
+    "Composite Concrete/Foam/Concrete With Plastic Connectors 3": {
+      "layer_2": "Composite Concrete/Foam/Concrete With Plastic Connectors #3",
+      "layer_3": "Composite Concrete/Foam/Concrete With Plastic Connectors #1",
+      "outside_layer": "Composite Concrete/Foam/Concrete With Plastic Connectors #2"
+    },
+    "Composite Concrete/Foam/Concrete With Steel Connectors": {
+      "layer_2": "Composite Concrete/Foam/Concrete With Steel Connectors #2",
+      "layer_3": "Composite Concrete/Foam/Concrete With Steel Connectors #1",
+      "outside_layer": "Composite Concrete/Foam/Concrete With Steel Connectors #3"
+    },
+    "Composite Concrete/Foam/Concrete With Steel Connectors 2": {
+      "layer_2": "Composite Concrete/Foam/Concrete With Steel Connectors #1",
+      "layer_3": "Composite Concrete/Foam/Concrete With Steel Connectors #2",
+      "outside_layer": "Composite Concrete/Foam/Concrete With Steel Connectors #3"
+    },
+    "Composite Concrete/Foam/Concrete With Steel Connectors 3": {
+      "layer_2": "Composite Concrete/Foam/Concrete With Steel Connectors #3",
+      "layer_3": "Composite Concrete/Foam/Concrete With Steel Connectors #1",
+      "outside_layer": "Composite Concrete/Foam/Concrete With Steel Connectors #2"
+    },
+    "Composite Foam 2x6 Steel Stud R19": {
+      "layer_2": "Composite Foam 2x6 Steel Stud R19 #2",
+      "layer_3": "Composite Foam 2x6 Steel Stud R19 #1",
+      "outside_layer": "Composite Foam 2x6 Steel Stud R19 #3"
+    },
+    "Composite Foam 2x6 Steel Stud R19 2": {
+      "layer_2": "Composite Foam 2x6 Steel Stud R19 #1",
+      "layer_3": "Composite Foam 2x6 Steel Stud R19 #2",
+      "outside_layer": "Composite Foam 2x6 Steel Stud R19 #3"
+    },
+    "Composite Foam 2x6 Steel Stud R19 3": {
+      "layer_2": "Composite Foam 2x6 Steel Stud R19 #3",
+      "layer_3": "Composite Foam 2x6 Steel Stud R19 #1",
+      "outside_layer": "Composite Foam 2x6 Steel Stud R19 #2"
+    },
+    "Composite Insulated Concrete Form Wall With Steel Ties": {
+      "layer_2": "Composite Insulated Concrete Form Wall With Steel Ties #2",
+      "layer_3": "Composite Insulated Concrete Form Wall With Steel Ties #1",
+      "outside_layer": "Composite Insulated Concrete Form Wall With Steel Ties #3"
+    },
+    "Composite Insulated Concrete Form Wall With Steel Ties 2": {
+      "layer_2": "Composite Insulated Concrete Form Wall With Steel Ties #1",
+      "layer_3": "Composite Insulated Concrete Form Wall With Steel Ties #2",
+      "outside_layer": "Composite Insulated Concrete Form Wall With Steel Ties #3"
+    },
+    "Composite Insulated Concrete Form Wall With Steel Ties 3": {
+      "layer_2": "Composite Insulated Concrete Form Wall With Steel Ties #3",
+      "layer_3": "Composite Insulated Concrete Form Wall With Steel Ties #1",
+      "outside_layer": "Composite Insulated Concrete Form Wall With Steel Ties #2"
+    },
+    "DropCeiling": {
+      "outside_layer": "Std AC02"
+    },
+    "FLOOR": {
+      "outside_layer": "C5 - 4 IN HW CONCRETE"
+    },
+    "IEAD_R-15 ci_Roof": {
+      "layer_2": "Roof Insulation",
+      "layer_3": "Metal Decking",
+      "outside_layer": "Roof Membrane"
+    },
+    "IEAD_R-15 ci_Roof 2": {
+      "layer_2": "Metal Decking",
+      "layer_3": "Roof Insulation",
+      "outside_layer": "Roof Membrane"
+    },
+    "IEAD_R-15 ci_Roof 3": {
+      "layer_2": "Roof Membrane",
+      "layer_3": "Metal Decking",
+      "outside_layer": "Roof Insulation"
+    },
+    "INT-FLOOR-TOPSIDE": {
+      "layer_2": "Std CP02 CARPET PAD",
+      "outside_layer": "Std MAT-CC05 4  MW CONCRETE"
+    },
+    "InsulatedCeiling": {
+      "layer_2": "G01 16mm gypsum board",
+      "outside_layer": "Interior Wall Addi Insul"
+    },
+    "Interior Wall": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Interior Wall Addi Insul",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 13": {
+      "layer_2": "Steel Frame/Cavity",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Interior Wall Addi Insul",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 14": {
+      "layer_2": "Steel Frame/Cavity",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 15": {
+      "layer_2": "Steel Frame/Cavity",
+      "layer_3": "Interior Wall Addi Insul",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 2": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Interior Wall Addi Insul",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 25": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Interior Wall Addi Insul",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 26": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Interior Wall Addi Insul",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 27": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Steel Frame/Cavity",
+      "layer_4": "Interior Wall Addi Insul",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 28": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Steel Frame/Cavity",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 29": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Interior Wall Addi Insul",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 3": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Steel Frame/Cavity",
+      "layer_4": "Interior Wall Addi Insul",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 30": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 31": {
+      "layer_2": "Interior Wall Addi Insul",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 32": {
+      "layer_2": "Interior Wall Addi Insul",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 35": {
+      "layer_2": "Interior Wall Addi Insul",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "F07 25mm stucco",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 38": {
+      "layer_2": "Steel Frame/Cavity",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 4": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Steel Frame/Cavity",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 41": {
+      "layer_2": "Steel Frame/Cavity",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "F07 25mm stucco",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 43": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "Interior Wall Addi Insul",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 44": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 45": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Interior Wall Addi Insul",
+      "layer_4": "F07 25mm stucco",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 47": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Steel Frame/Cavity",
+      "layer_4": "F07 25mm stucco",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "Interior Wall 5": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Interior Wall Addi Insul",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 50": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "Interior Wall Addi Insul"
+    },
+    "Interior Wall 56": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "Interior Wall Addi Insul"
+    },
+    "Interior Wall 59": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "F07 25mm stucco",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "Interior Wall Addi Insul"
+    },
+    "Interior Wall 6": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "Interior Wall Addi Insul",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 7": {
+      "layer_2": "Interior Wall Addi Insul",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Steel Frame/Cavity",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 8": {
+      "layer_2": "Interior Wall Addi Insul",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "Steel Frame/Cavity",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall 9": {
+      "layer_2": "Interior Wall Addi Insul",
+      "layer_3": "Steel Frame/Cavity",
+      "layer_4": "G01 16mm gypsum board",
+      "layer_5": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "Interior Wall_1": {
+      "layer_2": "R13_Insulation",
+      "layer_3": "Gypsum or plaster board - 9.5mm",
+      "outside_layer": "Gypsum or plaster board - 9.5mm"
+    },
+    "Interior Wall_1 2": {
+      "layer_2": "Gypsum or plaster board - 9.5mm",
+      "layer_3": "R13_Insulation",
+      "outside_layer": "Gypsum or plaster board - 9.5mm"
+    },
+    "InteriorFurnishings": {
+      "outside_layer": "Std Wood 6inch"
+    },
+    "Mass_R-7.6 ci_Ext-wall": {
+      "layer_2": "8IN Concrete HW",
+      "layer_3": "Wall Insulation [5]",
+      "layer_4": "1/2IN Gypsum",
+      "outside_layer": "1IN Stucco"
+    },
+    "Mass_R-7.6 ci_Ext-wall 11": {
+      "layer_2": "1/2IN Gypsum",
+      "layer_3": "1IN Stucco",
+      "layer_4": "Wall Insulation [5]",
+      "outside_layer": "8IN Concrete HW"
+    },
+    "Mass_R-7.6 ci_Ext-wall 13": {
+      "layer_2": "1IN Stucco",
+      "layer_3": "8IN Concrete HW",
+      "layer_4": "1/2IN Gypsum",
+      "outside_layer": "Wall Insulation [5]"
+    },
+    "Mass_R-7.6 ci_Ext-wall 15": {
+      "layer_2": "8IN Concrete HW",
+      "layer_3": "1IN Stucco",
+      "layer_4": "1/2IN Gypsum",
+      "outside_layer": "Wall Insulation [5]"
+    },
+    "Mass_R-7.6 ci_Ext-wall 2": {
+      "layer_2": "8IN Concrete HW",
+      "layer_3": "1/2IN Gypsum",
+      "layer_4": "Wall Insulation [5]",
+      "outside_layer": "1IN Stucco"
+    },
+    "Mass_R-7.6 ci_Ext-wall 3": {
+      "layer_2": "Wall Insulation [5]",
+      "layer_3": "8IN Concrete HW",
+      "layer_4": "1/2IN Gypsum",
+      "outside_layer": "1IN Stucco"
+    },
+    "Mass_R-7.6 ci_Ext-wall 4": {
+      "layer_2": "Wall Insulation [5]",
+      "layer_3": "1/2IN Gypsum",
+      "layer_4": "8IN Concrete HW",
+      "outside_layer": "1IN Stucco"
+    },
+    "Mass_R-7.6 ci_Ext-wall 5": {
+      "layer_2": "1/2IN Gypsum",
+      "layer_3": "8IN Concrete HW",
+      "layer_4": "Wall Insulation [5]",
+      "outside_layer": "1IN Stucco"
+    },
+    "Mass_R-7.6 ci_Ext-wall 6": {
+      "layer_2": "1/2IN Gypsum",
+      "layer_3": "Wall Insulation [5]",
+      "layer_4": "8IN Concrete HW",
+      "outside_layer": "1IN Stucco"
+    },
+    "Mass_R-7.6 ci_Ext-wall 7": {
+      "layer_2": "1IN Stucco",
+      "layer_3": "Wall Insulation [5]",
+      "layer_4": "1/2IN Gypsum",
+      "outside_layer": "8IN Concrete HW"
+    },
+    "Mass_R-7.6 ci_Ext-wall 8": {
+      "layer_2": "1IN Stucco",
+      "layer_3": "1/2IN Gypsum",
+      "layer_4": "Wall Insulation [5]",
+      "outside_layer": "8IN Concrete HW"
+    },
+    "Mass_R-7.6 ci_Ext-wall 9": {
+      "layer_2": "Wall Insulation [5]",
+      "layer_3": "1IN Stucco",
+      "layer_4": "1/2IN Gypsum",
+      "outside_layer": "8IN Concrete HW"
+    },
+    "OpaqueDoor": {
+      "outside_layer": "Std Opaque Door Panel"
+    },
+    "Overhead Door_con": {
+      "outside_layer": "Overhead Door_con Panel"
+    },
+    "Overhead Door_semi": {
+      "outside_layer": "Overhead Door_semi Panel"
+    },
+    "R13WALL": {
+      "outside_layer": "R13LAYER"
+    },
+    "ROOF31": {
+      "outside_layer": "R31LAYER"
+    },
+    "Skylight Double Clear": {
+      "layer_2": "AIR 3MM",
+      "layer_3": "CLEAR 2.5MM",
+      "outside_layer": "CLEAR 2.5MM"
+    },
+    "Skylight Double Clear 2": {
+      "layer_2": "CLEAR 2.5MM",
+      "layer_3": "AIR 3MM",
+      "outside_layer": "CLEAR 2.5MM"
+    },
+    "Standard_Int-Wall": {
+      "layer_2": "GP01 1/2 GYPSUM",
+      "outside_layer": "GP01 1/2 GYPSUM"
+    },
+    "Swinging Door_con": {
+      "outside_layer": "Opaque Door panel_con"
+    },
+    "Swinging Door_semi": {
+      "outside_layer": "Opaque Door panel_semi"
+    },
+    "Unheated - 4in Slab with Carpet_Ext-slab": {
+      "layer_2": "CP02 CARPET PAD",
+      "outside_layer": "MAT-CC05 4 HW CONCRETE"
+    },
+    "Window_U_0.19_SHGC_0.20": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "AIR 13MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 11": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 19": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 2": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 20": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 21": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "AIR 13MM",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 25": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "AIR 13MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 26": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 27": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 28": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 29": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 3": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 30": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 31": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 32": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 33": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "AIR 13MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 37": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 38": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 39": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 4": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 41": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 44": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 47": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.19_SHGC_0.20 49": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "COATED POLY-55"
+    },
+    "Window_U_0.19_SHGC_0.20 5": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 55": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "COATED POLY-55"
+    },
+    "Window_U_0.19_SHGC_0.20 57": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "AIR 13MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "COATED POLY-55"
+    },
+    "Window_U_0.19_SHGC_0.20 6": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 7": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "AIR 13MM",
+      "layer_4": "AIR 13MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.19_SHGC_0.20 8": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "AIR 13MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 13MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.24_SHGC_0.11": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "ECABS-2 COLORED 6MM"
+    },
+    "Window_U_0.24_SHGC_0.11 2": {
+      "layer_2": "LoE SPEC SEL CLEAR 6MM Rev",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "ECABS-2 COLORED 6MM"
+    },
+    "Window_U_0.24_SHGC_0.11 3": {
+      "layer_2": "ECABS-2 COLORED 6MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.24_SHGC_0.16": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ECABS-2 COLORED 6MM"
+    },
+    "Window_U_0.24_SHGC_0.16 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "ECABS-2 COLORED 6MM"
+    },
+    "Window_U_0.24_SHGC_0.16 3": {
+      "layer_2": "ECABS-2 COLORED 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.24_SHGC_0.23": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "LoE SPEC SEL TINT 6MM"
+    },
+    "Window_U_0.24_SHGC_0.23 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "LoE SPEC SEL TINT 6MM"
+    },
+    "Window_U_0.24_SHGC_0.23 3": {
+      "layer_2": "LoE SPEC SEL TINT 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.25_SHGC_0.40": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "LoE TINT 6MM"
+    },
+    "Window_U_0.25_SHGC_0.40 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "LoE TINT 6MM"
+    },
+    "Window_U_0.25_SHGC_0.40 3": {
+      "layer_2": "LoE TINT 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.29_SHGC_0.11": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "ECREF-2 COLORED 6MM"
+    },
+    "Window_U_0.29_SHGC_0.11 2": {
+      "layer_2": "LoE SPEC SEL CLEAR 6MM Rev",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "ECREF-2 COLORED 6MM"
+    },
+    "Window_U_0.29_SHGC_0.11 3": {
+      "layer_2": "ECREF-2 COLORED 6MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.29_SHGC_0.17": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ECABS-2 COLORED 6MM"
+    },
+    "Window_U_0.29_SHGC_0.17 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "ECABS-2 COLORED 6MM"
+    },
+    "Window_U_0.29_SHGC_0.17 3": {
+      "layer_2": "ECABS-2 COLORED 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.29_SHGC_0.22": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 11": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 19": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 2": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 20": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 21": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "AIR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 25": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 26": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 27": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 28": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 29": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 3": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 30": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 31": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 32": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 33": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "AIR 6MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 37": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 38": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 39": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "COATED POLY-55",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 4": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 41": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 44": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 47": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 49": {
+      "layer_2": "BRONZE 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "COATED POLY-55"
+    },
+    "Window_U_0.29_SHGC_0.22 5": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "COATED POLY-55",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 55": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "BRONZE 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "COATED POLY-55"
+    },
+    "Window_U_0.29_SHGC_0.22 57": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "BRONZE 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "COATED POLY-55"
+    },
+    "Window_U_0.29_SHGC_0.22 6": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-55",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 7": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "AIR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.22 8": {
+      "layer_2": "COATED POLY-55",
+      "layer_3": "AIR 6MM",
+      "layer_4": "CLEAR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "BRONZE 6MM"
+    },
+    "Window_U_0.29_SHGC_0.45": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "ECREF-2 BLEACHED 6MM"
+    },
+    "Window_U_0.29_SHGC_0.45 2": {
+      "layer_2": "LoE SPEC SEL CLEAR 6MM Rev",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "ECREF-2 BLEACHED 6MM"
+    },
+    "Window_U_0.29_SHGC_0.45 3": {
+      "layer_2": "ECREF-2 BLEACHED 6MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.30_SHGC_0.40": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "LoE TINT 6MM"
+    },
+    "Window_U_0.30_SHGC_0.40 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "LoE TINT 6MM"
+    },
+    "Window_U_0.30_SHGC_0.40 3": {
+      "layer_2": "LoE TINT 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.33_SHGC_0.45": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "COATED POLY-77",
+      "layer_4": "AIR 6MM",
+      "layer_5": "CLEAR 3MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 11": {
+      "layer_2": "COATED POLY-77",
+      "layer_3": "CLEAR 3MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 19": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "COATED POLY-77",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 2": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "COATED POLY-77",
+      "layer_4": "CLEAR 3MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 20": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-77",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 21": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "COATED POLY-77",
+      "layer_4": "AIR 6MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 26": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "COATED POLY-77",
+      "layer_4": "CLEAR 3MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.33_SHGC_0.45 28": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "CLEAR 3MM",
+      "layer_5": "COATED POLY-77",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.33_SHGC_0.45 29": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "CLEAR 3MM",
+      "layer_4": "COATED POLY-77",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.33_SHGC_0.45 3": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "COATED POLY-77",
+      "layer_5": "CLEAR 3MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 30": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "CLEAR 3MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-77",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.33_SHGC_0.45 38": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 3MM",
+      "layer_4": "CLEAR 3MM",
+      "layer_5": "COATED POLY-77",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.33_SHGC_0.45 4": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "AIR 6MM",
+      "layer_4": "CLEAR 3MM",
+      "layer_5": "COATED POLY-77",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 5": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 3MM",
+      "layer_4": "COATED POLY-77",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 6": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 3MM",
+      "layer_4": "AIR 6MM",
+      "layer_5": "COATED POLY-77",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.33_SHGC_0.45 8": {
+      "layer_2": "COATED POLY-77",
+      "layer_3": "AIR 6MM",
+      "layer_4": "CLEAR 3MM",
+      "layer_5": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.34_SHGC_0.45": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "PYR B CLEAR 6MM"
+    },
+    "Window_U_0.34_SHGC_0.45 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "PYR B CLEAR 6MM"
+    },
+    "Window_U_0.34_SHGC_0.45 3": {
+      "layer_2": "PYR B CLEAR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.35_SHGC_0.26": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF C CLEAR MID 6MM"
+    },
+    "Window_U_0.35_SHGC_0.26 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "REF C CLEAR MID 6MM"
+    },
+    "Window_U_0.35_SHGC_0.26 3": {
+      "layer_2": "REF C CLEAR MID 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.36_SHGC_0.35": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "LoE SPEC SEL TINT 6MM"
+    },
+    "Window_U_0.36_SHGC_0.35 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "LoE SPEC SEL TINT 6MM"
+    },
+    "Window_U_0.36_SHGC_0.35 3": {
+      "layer_2": "LoE SPEC SEL TINT 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.37_SHGC_0.45": {
+      "layer_2": "Gap_1_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_4321_LayerAvg"
+    },
+    "Window_U_0.37_SHGC_0.45 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0127",
+      "outside_layer": "Glass_4321_LayerAvg"
+    },
+    "Window_U_0.37_SHGC_0.45 3": {
+      "layer_2": "Glass_4321_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0127"
+    },
+    "Window_U_0.38_SHGC_0.26": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF B TINT HI 6MM"
+    },
+    "Window_U_0.38_SHGC_0.26 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "REF B TINT HI 6MM"
+    },
+    "Window_U_0.38_SHGC_0.26 3": {
+      "layer_2": "REF B TINT HI 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.38_SHGC_0.30": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF B CLEAR HI 6MM"
+    },
+    "Window_U_0.38_SHGC_0.30 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "REF B CLEAR HI 6MM"
+    },
+    "Window_U_0.38_SHGC_0.30 3": {
+      "layer_2": "REF B CLEAR HI 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.38_SHGC_0.36": {
+      "layer_2": "Gap_9_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_2531_LayerAvg"
+    },
+    "Window_U_0.38_SHGC_0.36 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_9_W_0_0127",
+      "outside_layer": "Glass_2531_LayerAvg"
+    },
+    "Window_U_0.38_SHGC_0.36 3": {
+      "layer_2": "Glass_2531_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_9_W_0_0127"
+    },
+    "Window_U_0.38_SHGC_0.41": {
+      "layer_2": "Gap_1_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_4313_LayerAvg"
+    },
+    "Window_U_0.38_SHGC_0.41 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0127",
+      "outside_layer": "Glass_4313_LayerAvg"
+    },
+    "Window_U_0.38_SHGC_0.41 3": {
+      "layer_2": "Glass_4313_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0127"
+    },
+    "Window_U_0.39_SHGC_0.32": {
+      "outside_layer": "Theoretical Glass 347"
+    },
+    "Window_U_0.39_SHGC_0.36": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "LoE TINT 6MM"
+    },
+    "Window_U_0.39_SHGC_0.36 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "LoE TINT 6MM"
+    },
+    "Window_U_0.39_SHGC_0.36 3": {
+      "layer_2": "LoE TINT 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.39_SHGC_0.38": {
+      "outside_layer": "Theoretical Glass 297"
+    },
+    "Window_U_0.39_SHGC_0.40": {
+      "layer_2": "Gap_1_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_282_LayerAvg"
+    },
+    "Window_U_0.39_SHGC_0.40 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0127",
+      "outside_layer": "Glass_282_LayerAvg"
+    },
+    "Window_U_0.39_SHGC_0.40 3": {
+      "layer_2": "Glass_282_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0127"
+    },
+    "Window_U_0.40_SHGC_0.4": {
+      "layer_2": "Gap_1_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_8652_LayerAvg"
+    },
+    "Window_U_0.40_SHGC_0.4 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0127",
+      "outside_layer": "Glass_8652_LayerAvg"
+    },
+    "Window_U_0.40_SHGC_0.4 3": {
+      "layer_2": "Glass_8652_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0127"
+    },
+    "Window_U_0.40_SHGC_0.43": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "LoE SPEC SEL CLEAR 3MM"
+    },
+    "Window_U_0.40_SHGC_0.43 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "LoE SPEC SEL CLEAR 3MM"
+    },
+    "Window_U_0.40_SHGC_0.43 3": {
+      "layer_2": "LoE SPEC SEL CLEAR 3MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.40_SHGC_0.45": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "ECABS-2 BLEACHED 6MM"
+    },
+    "Window_U_0.40_SHGC_0.45 2": {
+      "layer_2": "LoE SPEC SEL CLEAR 6MM Rev",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "ECABS-2 BLEACHED 6MM"
+    },
+    "Window_U_0.40_SHGC_0.45 3": {
+      "layer_2": "ECABS-2 BLEACHED 6MM",
+      "layer_3": "LoE SPEC SEL CLEAR 6MM Rev",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.42_SHGC_0.45": {
+      "layer_2": "ARGON 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_0.42_SHGC_0.45 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "ARGON 13MM",
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_0.42_SHGC_0.45 3": {
+      "layer_2": "REF D CLEAR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "ARGON 13MM"
+    },
+    "Window_U_0.43_SHGC_0.26": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF B CLEAR HI 6MM"
+    },
+    "Window_U_0.43_SHGC_0.26 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "REF B CLEAR HI 6MM"
+    },
+    "Window_U_0.43_SHGC_0.26 3": {
+      "layer_2": "REF B CLEAR HI 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.44_SHGC_0.20": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF B TINT HI 6MM"
+    },
+    "Window_U_0.44_SHGC_0.20 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "REF B TINT HI 6MM"
+    },
+    "Window_U_0.44_SHGC_0.20 3": {
+      "layer_2": "REF B TINT HI 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.44_SHGC_0.40": {
+      "layer_2": "Gap_9_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_9731_LayerAvg"
+    },
+    "Window_U_0.44_SHGC_0.40 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_9_W_0_0127",
+      "outside_layer": "Glass_9731_LayerAvg"
+    },
+    "Window_U_0.44_SHGC_0.40 3": {
+      "layer_2": "Glass_9731_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_9_W_0_0127"
+    },
+    "Window_U_0.45_SHGC_0.27": {
+      "layer_2": "Air 13MM",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_12116_LayerAvg"
+    },
+    "Window_U_0.45_SHGC_0.27 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Air 13MM",
+      "outside_layer": "Glass_12116_LayerAvg"
+    },
+    "Window_U_0.45_SHGC_0.27 3": {
+      "layer_2": "Glass_12116_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Air 13MM"
+    },
+    "Window_U_0.45_SHGC_0.38": {
+      "layer_2": "Gap_1_W_0_0127",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_2532_LayerAvg"
+    },
+    "Window_U_0.45_SHGC_0.38 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0127",
+      "outside_layer": "Glass_2532_LayerAvg"
+    },
+    "Window_U_0.45_SHGC_0.38 3": {
+      "layer_2": "Glass_2532_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0127"
+    },
+    "Window_U_0.46_SHGC_0.45": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "GREY 6MM"
+    },
+    "Window_U_0.46_SHGC_0.45 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "GREY 6MM"
+    },
+    "Window_U_0.46_SHGC_0.45 3": {
+      "layer_2": "GREY 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.47_SHGC_0.40": {
+      "layer_2": "Gap_1_W_0_0043",
+      "layer_3": "Glass_2010F_LayerAvg",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.47_SHGC_0.40 2": {
+      "layer_2": "Glass_2010F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0043",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.47_SHGC_0.40 3": {
+      "layer_2": "Glass_2052_LayerAvg",
+      "layer_3": "Glass_2010F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0043"
+    },
+    "Window_U_0.48_SHGC_0.40": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_0.48_SHGC_0.40 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_0.48_SHGC_0.40 3": {
+      "layer_2": "REF D CLEAR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.50_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0042",
+      "layer_3": "Glass_2022F_LayerAvg",
+      "outside_layer": "Glass_2175_LayerAvg"
+    },
+    "Window_U_0.50_SHGC_0.25 2": {
+      "layer_2": "Glass_2022F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0042",
+      "outside_layer": "Glass_2175_LayerAvg"
+    },
+    "Window_U_0.50_SHGC_0.25 3": {
+      "layer_2": "Glass_2175_LayerAvg",
+      "layer_3": "Glass_2022F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0042"
+    },
+    "Window_U_0.50_SHGC_0.40": {
+      "layer_2": "Gap_1_W_0_0038",
+      "layer_3": "Glass_2027F_LayerAvg",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.50_SHGC_0.40 2": {
+      "layer_2": "Glass_2027F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0038",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.50_SHGC_0.40 3": {
+      "layer_2": "Glass_2052_LayerAvg",
+      "layer_3": "Glass_2027F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0038"
+    },
+    "Window_U_0.51_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0090",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.51_SHGC_0.25 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0090",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.51_SHGC_0.25 3": {
+      "layer_2": "Glass_1576_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0090"
+    },
+    "Window_U_0.52_SHGC_0.22": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF B CLEAR LO 6MM"
+    },
+    "Window_U_0.52_SHGC_0.22 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "REF B CLEAR LO 6MM"
+    },
+    "Window_U_0.52_SHGC_0.22 3": {
+      "layer_2": "REF B CLEAR LO 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.54_SHGC_0.13": {
+      "layer_2": "AIR 13MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF A CLEAR LO 6MM"
+    },
+    "Window_U_0.54_SHGC_0.13 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 13MM",
+      "outside_layer": "REF A CLEAR LO 6MM"
+    },
+    "Window_U_0.54_SHGC_0.13 3": {
+      "layer_2": "REF A CLEAR LO 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 13MM"
+    },
+    "Window_U_0.54_SHGC_0.18": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF A TINT MID 6MM"
+    },
+    "Window_U_0.54_SHGC_0.18 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "REF A TINT MID 6MM"
+    },
+    "Window_U_0.54_SHGC_0.18 3": {
+      "layer_2": "REF A TINT MID 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.54_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0070",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.54_SHGC_0.25 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0070",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.54_SHGC_0.25 3": {
+      "layer_2": "Glass_1576_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0070"
+    },
+    "Window_U_0.54_SHGC_0.27": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF C CLEAR HI 6MM"
+    },
+    "Window_U_0.54_SHGC_0.27 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "REF C CLEAR HI 6MM"
+    },
+    "Window_U_0.54_SHGC_0.27 3": {
+      "layer_2": "REF C CLEAR HI 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.55_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0032",
+      "layer_3": "Glass_2022F_LayerAvg",
+      "outside_layer": "Glass_2175_LayerAvg"
+    },
+    "Window_U_0.55_SHGC_0.25 2": {
+      "layer_2": "Glass_2022F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0032",
+      "outside_layer": "Glass_2175_LayerAvg"
+    },
+    "Window_U_0.55_SHGC_0.25 3": {
+      "layer_2": "Glass_2175_LayerAvg",
+      "layer_3": "Glass_2022F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0032"
+    },
+    "Window_U_0.55_SHGC_0.31": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF D TINT 6MM"
+    },
+    "Window_U_0.55_SHGC_0.31 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "REF D TINT 6MM"
+    },
+    "Window_U_0.55_SHGC_0.31 3": {
+      "layer_2": "REF D TINT 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.56_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0060",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.56_SHGC_0.25 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0060",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.56_SHGC_0.25 3": {
+      "layer_2": "Glass_1576_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0060"
+    },
+    "Window_U_0.56_SHGC_0.76": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 3MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.56_SHGC_0.76 2": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "CLEAR 3MM"
+    },
+    "Window_U_0.57_SHGC_0.39": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_0.57_SHGC_0.39 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_0.57_SHGC_0.39 3": {
+      "layer_2": "REF D CLEAR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.57_SHGC_0.49": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "BLUE 6MM"
+    },
+    "Window_U_0.57_SHGC_0.49 2": {
+      "layer_2": "CLEAR 6MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "BLUE 6MM"
+    },
+    "Window_U_0.57_SHGC_0.49 3": {
+      "layer_2": "BLUE 6MM",
+      "layer_3": "CLEAR 6MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.58_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0052",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.58_SHGC_0.25 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0052",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.58_SHGC_0.25 3": {
+      "layer_2": "Glass_1576_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0052"
+    },
+    "Window_U_0.59_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0048",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.59_SHGC_0.25 2": {
+      "layer_2": "Glass_102_LayerAvg",
+      "layer_3": "Gap_1_W_0_0048",
+      "outside_layer": "Glass_1576_LayerAvg"
+    },
+    "Window_U_0.59_SHGC_0.25 3": {
+      "layer_2": "Glass_1576_LayerAvg",
+      "layer_3": "Glass_102_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0048"
+    },
+    "Window_U_0.60_SHGC_0.25": {
+      "layer_2": "Gap_1_W_0_0025",
+      "layer_3": "Glass_2022F_LayerAvg",
+      "outside_layer": "Glass_2175_LayerAvg"
+    },
+    "Window_U_0.60_SHGC_0.25 2": {
+      "layer_2": "Glass_2022F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0025",
+      "outside_layer": "Glass_2175_LayerAvg"
+    },
+    "Window_U_0.60_SHGC_0.25 3": {
+      "layer_2": "Glass_2175_LayerAvg",
+      "layer_3": "Glass_2022F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0025"
+    },
+    "Window_U_0.65_SHGC_0.35": {
+      "layer_2": "Gap_1_W_0_0024",
+      "layer_3": "Glass_2027F_LayerAvg",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.65_SHGC_0.35 2": {
+      "layer_2": "Glass_2027F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0024",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.65_SHGC_0.35 3": {
+      "layer_2": "Glass_2052_LayerAvg",
+      "layer_3": "Glass_2027F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0024"
+    },
+    "Window_U_0.67_SHGC_0.77": {
+      "outside_layer": "PYR B CLEAR 3MM"
+    },
+    "Window_U_0.72_SHGC_0.25": {
+      "outside_layer": "REF B TINT MID 6MM"
+    },
+    "Window_U_0.75_SHGC_0.35": {
+      "layer_2": "Gap_1_W_0_0018",
+      "layer_3": "Glass_2027F_LayerAvg",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.75_SHGC_0.35 2": {
+      "layer_2": "Glass_2027F_LayerAvg",
+      "layer_3": "Gap_1_W_0_0018",
+      "outside_layer": "Glass_2052_LayerAvg"
+    },
+    "Window_U_0.75_SHGC_0.35 3": {
+      "layer_2": "Glass_2052_LayerAvg",
+      "layer_3": "Glass_2027F_LayerAvg",
+      "outside_layer": "Gap_1_W_0_0018"
+    },
+    "Window_U_0.75_SHGC_0.6": {
+      "layer_2": "AIR 6MM",
+      "layer_3": "CLEAR 3MM",
+      "outside_layer": "GREY 3MM"
+    },
+    "Window_U_0.75_SHGC_0.6 2": {
+      "layer_2": "CLEAR 3MM",
+      "layer_3": "AIR 6MM",
+      "outside_layer": "GREY 3MM"
+    },
+    "Window_U_0.75_SHGC_0.6 3": {
+      "layer_2": "GREY 3MM",
+      "layer_3": "CLEAR 3MM",
+      "outside_layer": "AIR 6MM"
+    },
+    "Window_U_0.75_SHGC_0.72": {
+      "outside_layer": "PYR B CLEAR 6MM"
+    },
+    "Window_U_0.85_SHGC_0.78": {
+      "outside_layer": "PYR A CLEAR 3MM"
+    },
+    "Window_U_0.88_SHGC_0.16": {
+      "outside_layer": "REF A CLEAR LO 6MM"
+    },
+    "Window_U_0.88_SHGC_0.27": {
+      "outside_layer": "ECREF-1 COLORED 6MM"
+    },
+    "Window_U_0.9_SHGC_0.6": {
+      "outside_layer": "REF B CLEAR HI 6MM"
+    },
+    "Window_U_1.15_SHGC_0.68": {
+      "outside_layer": "GREEN 3MM"
+    },
+    "Window_U_1.17_SHGC_0.49": {
+      "outside_layer": "REF D CLEAR 6MM"
+    },
+    "Window_U_1.22_SHGC_0.34": {
+      "outside_layer": "REF C CLEAR HI 6MM"
+    },
+    "Window_U_1.22_SHGC_0.61": {
+      "outside_layer": "GREEN 6MM"
+    },
+    "basement_wall": {
+      "outside_layer": "M10 200mm concrete block basement wall"
+    },
+    "ext_slab_6in": {
+      "outside_layer": "150mm Normalweight concrete floor"
+    },
+    "ext_slab_6in_with_carpet": {
+      "layer_2": "CP02 CARPET PAD",
+      "outside_layer": "150mm Normalweight concrete floor"
+    },
+    "ext_slab_8in": {
+      "outside_layer": "200mm Normalweight concrete floor"
+    },
+    "ext_slab_8in_with_carpet": {
+      "layer_2": "CP02 CARPET PAD",
+      "outside_layer": "200mm Normalweight concrete floor"
+    },
+    "ext_soffit_floor": {
+      "outside_layer": "G02 16mm plywood"
+    },
+    "int_slab_ceiling": {
+      "layer_2": "100mm Normalweight concrete floor",
+      "outside_layer": "CP02 CARPET PAD"
+    },
+    "int_wall": {
+      "layer_2": "G01 13mm gypsum board",
+      "outside_layer": "G01 13mm gypsum board"
+    },
+    "int_wood_floor": {
+      "layer_2": "G02 16mm plywood",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "AC02 Acoustic Ceiling"
+    },
+    "int_wood_floor 2": {
+      "layer_2": "CP02 CARPET PAD",
+      "layer_3": "G02 16mm plywood",
+      "outside_layer": "AC02 Acoustic Ceiling"
+    },
+    "int_wood_floor 3": {
+      "layer_2": "AC02 Acoustic Ceiling",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "G02 16mm plywood"
+    },
+    "nonres_ext_wall": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Nonres_Exterior_Wall_Insulation",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "nonres_ext_wall 11": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "Nonres_Exterior_Wall_Insulation",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "nonres_ext_wall 2": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Nonres_Exterior_Wall_Insulation",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "nonres_ext_wall 3": {
+      "layer_2": "Nonres_Exterior_Wall_Insulation",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "nonres_ext_wall 7": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Nonres_Exterior_Wall_Insulation",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "nonres_ext_wall 8": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Nonres_Exterior_Wall_Insulation",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "nonres_floor": {
+      "layer_2": "100mm Normalweight concrete floor",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "Nonres_Floor_Insulation"
+    },
+    "nonres_floor 2": {
+      "layer_2": "CP02 CARPET PAD",
+      "layer_3": "100mm Normalweight concrete floor",
+      "outside_layer": "Nonres_Floor_Insulation"
+    },
+    "nonres_floor 3": {
+      "layer_2": "Nonres_Floor_Insulation",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "100mm Normalweight concrete floor"
+    },
+    "nonres_roof": {
+      "layer_2": "G01 16mm gypsum board",
+      "outside_layer": "Nonres_Roof_Insulation"
+    },
+    "res_ext_wall": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Res_Exterior_Wall_Insulation",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "res_ext_wall 11": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "Res_Exterior_Wall_Insulation",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "res_ext_wall 2": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Res_Exterior_Wall_Insulation",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "res_ext_wall 3": {
+      "layer_2": "Res_Exterior_Wall_Insulation",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "res_ext_wall 7": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Res_Exterior_Wall_Insulation",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "res_ext_wall 8": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Res_Exterior_Wall_Insulation",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "res_floor": {
+      "layer_2": "100mm Normalweight concrete floor",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "Res_Floor_Insulation"
+    },
+    "res_floor 2": {
+      "layer_2": "CP02 CARPET PAD",
+      "layer_3": "100mm Normalweight concrete floor",
+      "outside_layer": "Res_Floor_Insulation"
+    },
+    "res_floor 3": {
+      "layer_2": "Res_Floor_Insulation",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "100mm Normalweight concrete floor"
+    },
+    "res_roof": {
+      "layer_2": "G01 16mm gypsum board",
+      "outside_layer": "Res_Roof_Insulation"
+    },
+    "semiheated_ext_wall": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "Semiheated_Exterior_Wall_Insulation",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "semiheated_ext_wall 11": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "F07 25mm stucco",
+      "layer_4": "Semiheated_Exterior_Wall_Insulation",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "semiheated_ext_wall 2": {
+      "layer_2": "G01 16mm gypsum board",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Semiheated_Exterior_Wall_Insulation",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "semiheated_ext_wall 3": {
+      "layer_2": "Semiheated_Exterior_Wall_Insulation",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "F07 25mm stucco"
+    },
+    "semiheated_ext_wall 7": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "Semiheated_Exterior_Wall_Insulation",
+      "layer_4": "G01 16mm gypsum board",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "semiheated_ext_wall 8": {
+      "layer_2": "F07 25mm stucco",
+      "layer_3": "G01 16mm gypsum board",
+      "layer_4": "Semiheated_Exterior_Wall_Insulation",
+      "outside_layer": "G01 16mm gypsum board"
+    },
+    "semiheated_floor": {
+      "layer_2": "100mm Normalweight concrete floor",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "Semiheated_Floor_Insulation"
+    },
+    "semiheated_floor 2": {
+      "layer_2": "CP02 CARPET PAD",
+      "layer_3": "100mm Normalweight concrete floor",
+      "outside_layer": "Semiheated_Floor_Insulation"
+    },
+    "semiheated_floor 3": {
+      "layer_2": "Semiheated_Floor_Insulation",
+      "layer_3": "CP02 CARPET PAD",
+      "outside_layer": "100mm Normalweight concrete floor"
+    },
+    "semiheated_roof": {
+      "layer_2": "G01 16mm gypsum board",
+      "outside_layer": "Semiheated_Roof_Insulation"
+    },
+    "std_window_UValue_3.237_SHGC_0.49_VT_0.622": {
+      "outside_layer": "Theoretical Glass [67]"
+    }
+  },
+  "Exterior:Lights": {
+    "ExtLights": {
+      "control_option": "AstronomicalClock",
+      "design_level": 5250,
+      "end_use_subcategory": "Grounds Lights",
+      "schedule_name": "AlwaysOn"
+    }
+  },
+  "GlobalGeometryRules": {
+    "GlobalGeometryRules 1": {
+      "coordinate_system": "World",
+      "starting_vertex_position": "UpperLeftCorner",
+      "vertex_entry_direction": "Counterclockwise"
+    }
+  },
+  "HeatBalanceAlgorithm": {
+    "HeatBalanceAlgorithm 1": {
+      "algorithm": "ConductionTransferFunction"
+    }
+  },
+  "Material": {
+    "1/2IN Gypsum": {
+      "conductivity": 0.16,
+      "density": 784.9,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.92,
+      "specific_heat": 830.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0127,
+      "visible_absorptance": 0.92
+    },
+    "100mm Normalweight concrete floor": {
+      "conductivity": 2.31,
+      "density": 2322,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.1016
+    },
+    "100mm Normalweight concrete wall": {
+      "conductivity": 2.31,
+      "density": 2322,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.1016
+    },
+    "150mm Normalweight concrete floor": {
+      "conductivity": 2.31,
+      "density": 2322,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.1524
+    },
+    "1IN Stucco": {
+      "conductivity": 0.6918,
+      "density": 1858.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.92,
+      "specific_heat": 837.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0253,
+      "visible_absorptance": 0.92
+    },
+    "200mm Normalweight concrete floor": {
+      "conductivity": 2.31,
+      "density": 2322,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.2032
+    },
+    "200mm Normalweight concrete wall": {
+      "conductivity": 2.31,
+      "density": 2322,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.2032
+    },
+    "8IN Concrete HW": {
+      "conductivity": 1.7296,
+      "density": 2243.0,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.65,
+      "specific_heat": 837.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.2033,
+      "visible_absorptance": 0.65
+    },
+    "AC02 Acoustic Ceiling": {
+      "conductivity": 0.057,
+      "density": 288.0,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1339.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0127,
+      "visible_absorptance": 0.2
+    },
+    "Bulk Storage Products Material": {
+      "conductivity": 1.44200004455643,
+      "density": 200.230661511125,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.800006332062,
+      "thermal_absorptance": 0.9,
+      "thickness": 2.43840494296412,
+      "visible_absorptance": 0.7
+    },
+    "C5 - 4 IN HW CONCRETE": {
+      "conductivity": 1.729577,
+      "density": 2242.585,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.65,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.1014984,
+      "visible_absorptance": 0.65
+    },
+    "Composite 2-Core Filled Concrete Block Insulated #1": {
+      "conductivity": 0.88,
+      "density": 1774.75,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 838,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.079,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2-Core Filled Concrete Block Insulated #2": {
+      "conductivity": 0.572,
+      "density": 346.61,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 838,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.127,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2-Core Filled Concrete Block Insulated #3": {
+      "conductivity": 0.973,
+      "density": 1862.66,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 838,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.089,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2-Core Filled Concrete Block Uninsulated #1": {
+      "conductivity": 1.378,
+      "density": 1731.45,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 838,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.079,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2-Core Filled Concrete Block Uninsulated #2": {
+      "conductivity": 1.065,
+      "density": 1031.57,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 419,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.127,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2-Core Filled Concrete Block Uninsulated #3": {
+      "conductivity": 1.437,
+      "density": 1647.86,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 838,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.089,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x4 Steel Stud R11 #1": {
+      "conductivity": 0.72,
+      "density": 640.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.013,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x4 Steel Stud R11 #2": {
+      "conductivity": 0.06,
+      "density": 118.223,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.089,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x4 Steel Stud R11 #3": {
+      "conductivity": 0.452,
+      "density": 413.782,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.025,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x4 Wood Stud R11 #1": {
+      "conductivity": 0.186,
+      "density": 640.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.019,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x4 Wood Stud R11 #2": {
+      "conductivity": 0.049,
+      "density": 119.63,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.083,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x4 Wood Stud R11 #3": {
+      "conductivity": 0.124,
+      "density": 508.45,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.025,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x6 Steel Stud R19 #1": {
+      "conductivity": 0.253,
+      "density": 560,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.019,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x6 Steel Stud R19 #2": {
+      "conductivity": 0.073,
+      "density": 61.8,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.133,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x6 Steel Stud R19 #3": {
+      "conductivity": 0.248,
+      "density": 486.67,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.025,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x6 Wood Stud R19 #1": {
+      "conductivity": 0.137,
+      "density": 640.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.019,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x6 Wood Stud R19 #2": {
+      "conductivity": 0.047,
+      "density": 93.84,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.133,
+      "visible_absorptance": 0.7
+    },
+    "Composite 2x6 Wood Stud R19 #3": {
+      "conductivity": 0.246,
+      "density": 492.67,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.025,
+      "visible_absorptance": 0.7
+    },
+    "Composite Brick Foam 2x4 Steel Stud R11 #1": {
+      "conductivity": 0.169,
+      "density": 640.0,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.013,
+      "visible_absorptance": 0.7
+    },
+    "Composite Brick Foam 2x4 Steel Stud R11 #2": {
+      "conductivity": 0.062,
+      "density": 57.26,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 964,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.127,
+      "visible_absorptance": 0.7
+    },
+    "Composite Brick Foam 2x4 Steel Stud R11 #3": {
+      "conductivity": 0.638,
+      "density": 2026.14,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 796,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.083,
+      "visible_absorptance": 0.7
+    },
+    "Composite Brick Foam 2x6 Steel Stud R19 #1": {
+      "conductivity": 0.151,
+      "density": 400,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 964,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.019,
+      "visible_absorptance": 0.7
+    },
+    "Composite Brick Foam 2x6 Steel Stud R19 #2": {
+      "conductivity": 0.065,
+      "density": 73.52,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 964,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.165,
+      "visible_absorptance": 0.7
+    },
+    "Composite Brick Foam 2x6 Steel Stud R19 #3": {
+      "conductivity": 1.318,
+      "density": 1911.57,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 964,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.089,
+      "visible_absorptance": 0.7
+    },
+    "Composite Concrete/Foam/Concrete With Plastic Connectors #1": {
+      "conductivity": 1.201,
+      "density": 2240,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 901,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.07,
+      "visible_absorptance": 0.7
+    },
+    "Composite Concrete/Foam/Concrete With Plastic Connectors #2": {
+      "conductivity": 0.036,
+      "density": 43.16,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1173,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.064,
+      "visible_absorptance": 0.7
+    },
+    "Composite Concrete/Foam/Concrete With Plastic Connectors #3": {
+      "conductivity": 1.361,
+      "density": 2153.49,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.07,
+      "visible_absorptance": 0.7
+    },
+    "Composite Concrete/Foam/Concrete With Steel Connectors #1": {
+      "conductivity": 1.329,
+      "density": 2213.25,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 964,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.064,
+      "visible_absorptance": 0.7
+    },
+    "Composite Concrete/Foam/Concrete With Steel Connectors #2": {
+      "conductivity": 0.061,
+      "density": 41.53,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1173,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.076,
+      "visible_absorptance": 0.7
+    },
+    "Composite Concrete/Foam/Concrete With Steel Connectors #3": {
+      "conductivity": 1.078,
+      "density": 2185.44,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1173,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.064,
+      "visible_absorptance": 0.7
+    },
+    "Composite Foam 2x6 Steel Stud R19 #1": {
+      "conductivity": 0.149,
+      "density": 400,
+      "roughness": "VeryRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1006,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.019,
+      "visible_absorptance": 0.7
+    },
+    "Composite Foam 2x6 Steel Stud R19 #2": {
+      "conductivity": 0.051,
+      "density": 85.95,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 964,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.127,
+      "visible_absorptance": 0.7
+    },
+    "Composite Foam 2x6 Steel Stud R19 #3": {
+      "conductivity": 1.163,
+      "density": 790.7,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 838,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.064,
+      "visible_absorptance": 0.7
+    },
+    "Composite Insulated Concrete Form Wall With Steel Ties #1": {
+      "conductivity": 0.079,
+      "density": 1110.0,
+      "roughness": "VeryRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.089,
+      "visible_absorptance": 0.7
+    },
+    "Composite Insulated Concrete Form Wall With Steel Ties #2": {
+      "conductivity": 0.499,
+      "density": 1552.01,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 880,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.095,
+      "visible_absorptance": 0.7
+    },
+    "Composite Insulated Concrete Form Wall With Steel Ties #3": {
+      "conductivity": 0.134,
+      "density": 832.5,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1048,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.089,
+      "visible_absorptance": 0.7
+    },
+    "F07 25mm stucco": {
+      "conductivity": 0.72,
+      "density": 1856,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 840,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0254,
+      "visible_absorptance": 0.7
+    },
+    "F08 Metal roof surface": {
+      "conductivity": 45.28,
+      "density": 7824,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 500,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0008
+    },
+    "F08 Metal surface": {
+      "conductivity": 45.28,
+      "density": 7824,
+      "roughness": "Smooth",
+      "specific_heat": 500,
+      "thickness": 0.0008
+    },
+    "F12 Asphalt shingles": {
+      "conductivity": 0.04,
+      "density": 1120,
+      "roughness": "VeryRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1260,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0032
+    },
+    "F13 Built-up roofing": {
+      "conductivity": 0.16,
+      "density": 1120,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1460,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0095
+    },
+    "Floor Insulation [2]": {
+      "conductivity": 0.045,
+      "density": 265.0,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0636,
+      "visible_absorptance": 0.7
+    },
+    "G01 13mm gypsum board": {
+      "conductivity": 0.16,
+      "density": 800.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1090.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0127,
+      "visible_absorptance": 0.5
+    },
+    "G01 16mm gypsum board": {
+      "conductivity": 0.16,
+      "density": 800,
+      "roughness": "MediumSmooth",
+      "specific_heat": 1090,
+      "thickness": 0.0159
+    },
+    "G02 16mm plywood": {
+      "conductivity": 0.12,
+      "density": 544,
+      "roughness": "Smooth",
+      "specific_heat": 1210,
+      "thickness": 0.0159
+    },
+    "GP01 1/2 GYPSUM": {
+      "conductivity": 0.16,
+      "density": 800.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1090.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0127,
+      "visible_absorptance": 0.5
+    },
+    "Gypsum or plaster board - 9.5mm": {
+      "conductivity": 0.58,
+      "density": 800,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1090,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0095,
+      "visible_absorptance": 0.7
+    },
+    "Interior Wall Addi Insul": {
+      "conductivity": 0.0432600013366928,
+      "density": 22.425834089246,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.800006332062,
+      "thermal_absorptance": 0.9,
+      "thickness": 2.54000514892096e-08,
+      "visible_absorptance": 0.7
+    },
+    "M10 200mm concrete block basement wall": {
+      "conductivity": 1.326,
+      "density": 1842,
+      "roughness": "MediumRough",
+      "specific_heat": 912,
+      "thickness": 0.2032
+    },
+    "M10 200mm concrete block wall": {
+      "conductivity": 0.72,
+      "density": 800,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.2032
+    },
+    "M14 150mm heavyweight concrete roof": {
+      "conductivity": 2.31,
+      "density": 2322,
+      "roughness": "MediumRough",
+      "specific_heat": 832,
+      "thickness": 0.1524
+    },
+    "MAT-CC05 4 HW CONCRETE": {
+      "conductivity": 1.311,
+      "density": 2240.0,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.1016,
+      "visible_absorptance": 0.7
+    },
+    "MAT-CC05 8 HW CONCRETE": {
+      "conductivity": 1.311,
+      "density": 2240.0,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.2032,
+      "visible_absorptance": 0.7
+    },
+    "METAL Door Medium 18Ga_1": {
+      "conductivity": 45.3149,
+      "density": 7833.03,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.5,
+      "specific_heat": 502.08,
+      "thermal_absorptance": 0.8,
+      "thickness": 0.0013,
+      "visible_absorptance": 0.5
+    },
+    "METAL Door Medium 18Ga_2": {
+      "conductivity": 45.3149,
+      "density": 7833.03,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.5,
+      "specific_heat": 502.08,
+      "thermal_absorptance": 0.8,
+      "thickness": 0.0013,
+      "visible_absorptance": 0.5
+    },
+    "Metal Decking": {
+      "conductivity": 45.006,
+      "density": 7680.0,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 418.4,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0015,
+      "visible_absorptance": 0.3
+    },
+    "PW05_Plywood3/4_in": {
+      "conductivity": 0.115,
+      "density": 545.0,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1213.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0191,
+      "visible_absorptance": 0.78
+    },
+    "Roof Insulation": {
+      "conductivity": 0.049,
+      "density": 265.0,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.125,
+      "visible_absorptance": 0.7
+    },
+    "Roof Membrane": {
+      "conductivity": 0.16,
+      "density": 1121.29,
+      "roughness": "VeryRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1460.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0095,
+      "visible_absorptance": 0.7
+    },
+    "Std 1.5  MW CONCRETE": {
+      "conductivity": 0.858,
+      "density": 1968,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.038,
+      "visible_absorptance": 0.7
+    },
+    "Std AC02": {
+      "conductivity": 0.057,
+      "density": 288.0,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1339.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0127,
+      "visible_absorptance": 0.2
+    },
+    "Std MAT-CC05 4  MW CONCRETE": {
+      "conductivity": 0.858,
+      "density": 1968,
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 836.8,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.1,
+      "visible_absorptance": 0.2
+    },
+    "Std PW05": {
+      "conductivity": 0.115,
+      "density": 545.0,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.78,
+      "specific_heat": 1213.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.019099999,
+      "visible_absorptance": 0.78
+    },
+    "Std Steel_Brown_Cool": {
+      "conductivity": 44.9696,
+      "density": 7689.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.73,
+      "specific_heat": 418.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0015,
+      "visible_absorptance": 0.73
+    },
+    "Std Steel_Brown_Regular": {
+      "conductivity": 44.9696,
+      "density": 7689.0,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.92,
+      "specific_heat": 418.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0015,
+      "visible_absorptance": 0.92
+    },
+    "Std Very High Reflectivity Surface": {
+      "conductivity": 237,
+      "density": 2702,
+      "roughness": "Smooth",
+      "solar_absorptance": 0.05,
+      "specific_heat": 903,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0005,
+      "visible_absorptance": 0.05
+    },
+    "Std Wood 6inch": {
+      "conductivity": 0.12,
+      "density": 540.0,
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "specific_heat": 1210,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.15,
+      "visible_absorptance": 0.7
+    },
+    "Steel Frame/Cavity": {
+      "conductivity": 0.0841161885991101,
+      "density": 641.378854952435,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "specific_heat": 502.080003799237,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0889001802122336,
+      "visible_absorptance": 0.7
+    },
+    "Wall Insulation [5]": {
+      "conductivity": 0.0432,
+      "density": 91.0,
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.5,
+      "specific_heat": 837.0,
+      "thermal_absorptance": 0.9,
+      "thickness": 0.0453,
+      "visible_absorptance": 0.5
+    }
+  },
+  "Material:NoMass": {
+    "AIR": {
+      "roughness": "Smooth",
+      "solar_absorptance": 0.5,
+      "thermal_absorptance": 0.8,
+      "thermal_resistance": 0.2515,
+      "visible_absorptance": 0.5
+    },
+    "AIR [1]": {
+      "roughness": "Smooth",
+      "solar_absorptance": 0.5,
+      "thermal_absorptance": 0.8,
+      "thermal_resistance": 0.1214,
+      "visible_absorptance": 0.5
+    },
+    "Air_Wall_Material": {
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.2079491
+    },
+    "CP02 CARPET PAD": {
+      "roughness": "VeryRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.2165,
+      "visible_absorptance": 0.8
+    },
+    "MAT-AIR-WALL": {
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.2079491
+    },
+    "Nonres_Exterior_Wall_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 3.06941962105791,
+      "visible_absorptance": 0.7
+    },
+    "Nonres_Floor_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Nonres_Roof_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 8.09838681889561,
+      "visible_absorptance": 0.7
+    },
+    "Opaque Door panel_con": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.475963827,
+      "visible_absorptance": 0.7
+    },
+    "Opaque Door panel_semi": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.475675676,
+      "visible_absorptance": 0.7
+    },
+    "Overhead Door_con Panel": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.567741935,
+      "visible_absorptance": 0.7
+    },
+    "Overhead Door_semi Panel": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.488888889,
+      "visible_absorptance": 0.7
+    },
+    "R13LAYER": {
+      "roughness": "Rough",
+      "solar_absorptance": 0.75,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 2.290965,
+      "visible_absorptance": 0.75
+    },
+    "R13_Insulation": {
+      "roughness": "Rough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 2.28800006982422,
+      "visible_absorptance": 0.7
+    },
+    "R31LAYER": {
+      "roughness": "Rough",
+      "solar_absorptance": 0.75,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 5.456,
+      "visible_absorptance": 0.75
+    },
+    "Res_Exterior_Wall_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Res_Floor_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Res_Roof_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Semiheated_Exterior_Wall_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Semiheated_Floor_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Semiheated_Roof_Insulation": {
+      "roughness": "MediumSmooth",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.0299387330245182,
+      "visible_absorptance": 0.7
+    },
+    "Std CP02 CARPET PAD": {
+      "roughness": "VeryRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.21648,
+      "visible_absorptance": 0.8
+    },
+    "Std Opaque Door Panel": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.123456790123457,
+      "visible_absorptance": 0.7
+    },
+    "Std Opaque Door panel_con": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.12327,
+      "visible_absorptance": 0.7
+    },
+    "Std Opaque Door panel_semi": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.12327,
+      "visible_absorptance": 0.7
+    },
+    "Std Overhead Door Panel": {
+      "roughness": "MediumRough",
+      "solar_absorptance": 0.7,
+      "thermal_absorptance": 0.9,
+      "thermal_resistance": 0.255345,
+      "visible_absorptance": 0.7
+    }
+  },
+  "OtherEquipment": {
+    "Test 352 minus": {
+      "design_level": -352,
+      "design_level_calculation_method": "EquipmentLevel",
+      "fraction_latent": 0,
+      "fraction_lost": 0,
+      "fraction_radiant": 0,
+      "fuel_type": "None",
+      "schedule_name": "AlwaysOn",
+      "zone_or_zonelist_name": "ZONE ONE"
+    },
+    "Test 352a": {
+      "design_level": 352,
+      "design_level_calculation_method": "EquipmentLevel",
+      "fraction_latent": 0,
+      "fraction_lost": 0,
+      "fraction_radiant": 0,
+      "fuel_type": "None",
+      "schedule_name": "AlwaysOn",
+      "zone_or_zonelist_name": "ZONE ONE"
+    }
+  },
+  "Output:Constructions": {
+    "Output:Constructions 1": {
+      "details_type_1": "Constructions"
+    }
+  },
+  "Output:Meter:MeterFileOnly": {
+    "Output:Meter:MeterFileOnly 1": {
+      "key_name": "ExteriorLights:Electricity",
+      "reporting_frequency": "Hourly"
+    },
+    "Output:Meter:MeterFileOnly 2": {
+      "key_name": "EnergyTransfer:Building",
+      "reporting_frequency": "Hourly"
+    },
+    "Output:Meter:MeterFileOnly 3": {
+      "key_name": "EnergyTransfer:Facility",
+      "reporting_frequency": "Hourly"
+    }
+  },
+  "Output:Surfaces:Drawing": {
+    "Output:Surfaces:Drawing 1": {
+      "report_type": "DXF:WireFrame"
+    }
+  },
+  "Output:Table:SummaryReports": {
+    "Output:Table:SummaryReports 1": {
+      "reports": [
+        {
+          "report_name": "AllSummary"
+        }
+      ]
+    }
+  },
+  "Output:Variable": {
+    "Output:Variable 1": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Site Outdoor Air Drybulb Temperature"
+    },
+    "Output:Variable 10": {
+      "key_value": "*",
+      "reporting_frequency": "Daily",
+      "variable_name": "Surface Outside Face Temperature"
+    },
+    "Output:Variable 11": {
+      "key_value": "*",
+      "reporting_frequency": "Daily",
+      "variable_name": "Surface Inside Face Convection Heat Transfer Coefficient"
+    },
+    "Output:Variable 12": {
+      "key_value": "*",
+      "reporting_frequency": "Daily",
+      "variable_name": "Surface Outside Face Convection Heat Transfer Coefficient"
+    },
+    "Output:Variable 13": {
+      "key_value": "*",
+      "reporting_frequency": "Monthly",
+      "variable_name": "Other Equipment Total Heating Energy"
+    },
+    "Output:Variable 14": {
+      "key_value": "*",
+      "reporting_frequency": "Monthly",
+      "variable_name": "Zone Other Equipment Total Heating Energy"
+    },
+    "Output:Variable 2": {
+      "key_value": "*",
+      "reporting_frequency": "Daily",
+      "variable_name": "Site Daylight Saving Time Status"
+    },
+    "Output:Variable 3": {
+      "key_value": "*",
+      "reporting_frequency": "Daily",
+      "variable_name": "Site Day Type Index"
+    },
+    "Output:Variable 4": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Mean Air Temperature"
+    },
+    "Output:Variable 5": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Total Internal Latent Gain Energy"
+    },
+    "Output:Variable 6": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Mean Radiant Temperature"
+    },
+    "Output:Variable 7": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Air Heat Balance Surface Convection Rate"
+    },
+    "Output:Variable 8": {
+      "key_value": "*",
+      "reporting_frequency": "Hourly",
+      "variable_name": "Zone Air Heat Balance Air Energy Storage Rate"
+    },
+    "Output:Variable 9": {
+      "key_value": "*",
+      "reporting_frequency": "Daily",
+      "variable_name": "Surface Inside Face Temperature"
+    }
+  },
+  "Output:VariableDictionary": {
+    "Output:VariableDictionary 1": {
+      "key_field": "IDF"
+    }
+  },
+  "OutputControl:Table:Style": {
+    "OutputControl:Table:Style 1": {
+      "column_separator": "All"
+    }
+  },
+  "RunPeriod": {
+    "Run Period 1": {
+      "apply_weekend_holiday_rule": "No",
+      "begin_day_of_month": 1,
+      "begin_month": 1,
+      "day_of_week_for_start_day": "Tuesday",
+      "end_day_of_month": 31,
+      "end_month": 12,
+      "use_weather_file_daylight_saving_period": "Yes",
+      "use_weather_file_holidays_and_special_days": "Yes",
+      "use_weather_file_rain_indicators": "Yes",
+      "use_weather_file_snow_indicators": "Yes"
+    }
+  },
+  "Schedule:Constant": {
+    "AlwaysOn": {
+      "hourly_value": 1.0,
+      "schedule_type_limits_name": "On/Off"
+    }
+  },
+  "ScheduleTypeLimits": {
+    "Fraction": {
+      "lower_limit_value": 0.0,
+      "numeric_type": "Continuous",
+      "upper_limit_value": 1.0
+    },
+    "On/Off": {
+      "lower_limit_value": 0,
+      "numeric_type": "Discrete",
+      "upper_limit_value": 1
+    }
+  },
+  "SimulationControl": {
+    "SimulationControl 1": {
+      "do_plant_sizing_calculation": "No",
+      "do_system_sizing_calculation": "No",
+      "do_zone_sizing_calculation": "No",
+      "run_simulation_for_sizing_periods": "Yes",
+      "run_simulation_for_weather_file_run_periods": "Yes"
+    }
+  },
+  "Site:Location": {
+    "Denver Centennial  Golden   N_CO_USA Design_Conditions": {
+      "elevation": 1829.0,
+      "latitude": 39.74,
+      "longitude": -105.18,
+      "time_zone": -7.0
+    }
+  },
+  "SizingPeriod:DesignDay": {
+    "Denver Centennial  Golden   N Ann Clg 1% Condns DB=>MWB": {
+      "barometric_pressure": 81198.0,
+      "daily_dry_bulb_temperature_range": 15.2,
+      "day_of_month": 21,
+      "day_type": "SummerDesignDay",
+      "daylight_saving_time_indicator": "No",
+      "humidity_condition_type": "WetBulb",
+      "maximum_dry_bulb_temperature": 32,
+      "month": 7,
+      "rain_indicator": "No",
+      "sky_clearness": 1.0,
+      "snow_indicator": "No",
+      "solar_model_indicator": "ASHRAEClearSky",
+      "wetbulb_or_dewpoint_at_maximum_dry_bulb": 15.5,
+      "wind_direction": 0,
+      "wind_speed": 4.9
+    },
+    "Denver Centennial  Golden   N Ann Htg 99% Condns DB": {
+      "barometric_pressure": 81198.0,
+      "daily_dry_bulb_temperature_range": 0.0,
+      "day_of_month": 21,
+      "day_type": "WinterDesignDay",
+      "daylight_saving_time_indicator": "No",
+      "humidity_condition_type": "WetBulb",
+      "maximum_dry_bulb_temperature": -15.5,
+      "month": 12,
+      "rain_indicator": "No",
+      "sky_clearness": 0.0,
+      "snow_indicator": "No",
+      "solar_model_indicator": "ASHRAEClearSky",
+      "wetbulb_or_dewpoint_at_maximum_dry_bulb": -15.5,
+      "wind_direction": 340,
+      "wind_speed": 3
+    }
+  },
+  "SurfaceConvectionAlgorithm:Inside": {
+    "SurfaceConvectionAlgorithm:Inside 1": {
+      "algorithm": "TARP"
+    }
+  },
+  "SurfaceConvectionAlgorithm:Outside": {
+    "SurfaceConvectionAlgorithm:Outside 1": {
+      "algorithm": "DOE-2"
+    }
+  },
+  "Timestep": {
+    "Timestep 1": {
+      "number_of_timesteps_per_hour": 4
+    }
+  },
+  "Version": {
+    "Version 1": {
+      "version_identifier": "9.4"
+    }
+  },
+  "WindowMaterial:Gas": {
+    "AIR 13MM": {
+      "gas_type": "Air",
+      "thickness": 0.0127
+    },
+    "AIR 3MM": {
+      "gas_type": "Air",
+      "thickness": 0.0032
+    },
+    "AIR 6MM": {
+      "gas_type": "Air",
+      "thickness": 0.0063
+    },
+    "ARGON 13MM": {
+      "gas_type": "Argon",
+      "thickness": 0.0127
+    },
+    "Gap_1_W_0_0018": {
+      "gas_type": "Air",
+      "thickness": 0.0018
+    },
+    "Gap_1_W_0_0024": {
+      "gas_type": "Air",
+      "thickness": 0.0024
+    },
+    "Gap_1_W_0_0025": {
+      "gas_type": "Air",
+      "thickness": 0.0025
+    },
+    "Gap_1_W_0_0032": {
+      "gas_type": "Air",
+      "thickness": 0.0032
+    },
+    "Gap_1_W_0_0038": {
+      "gas_type": "Air",
+      "thickness": 0.0038
+    },
+    "Gap_1_W_0_0042": {
+      "gas_type": "Air",
+      "thickness": 0.0042
+    },
+    "Gap_1_W_0_0043": {
+      "gas_type": "Air",
+      "thickness": 0.0043
+    },
+    "Gap_1_W_0_0046": {
+      "gas_type": "Air",
+      "thickness": 0.0046
+    },
+    "Gap_1_W_0_0048": {
+      "gas_type": "Air",
+      "thickness": 0.0048
+    },
+    "Gap_1_W_0_0052": {
+      "gas_type": "Air",
+      "thickness": 0.0052
+    },
+    "Gap_1_W_0_0060": {
+      "gas_type": "Air",
+      "thickness": 0.006
+    },
+    "Gap_1_W_0_0070": {
+      "gas_type": "Air",
+      "thickness": 0.007
+    },
+    "Gap_1_W_0_0090": {
+      "gas_type": "Air",
+      "thickness": 0.009
+    },
+    "Gap_1_W_0_0127": {
+      "gas_type": "Air",
+      "thickness": 0.0127
+    }
+  },
+  "WindowMaterial:GasMixture": {
+    "Gap_9_W_0_0127": {
+      "gas_1_fraction": 0.1,
+      "gas_1_type": "Air",
+      "gas_2_fraction": 0.9,
+      "gas_2_type": "Argon",
+      "number_of_gases_in_mixture": 2,
+      "thickness": 0.0127
+    }
+  },
+  "WindowMaterial:Glazing": {
+    "BLUE 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.05,
+      "back_side_visible_reflectance_at_normal_incidence": 0.06,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.05,
+      "front_side_visible_reflectance_at_normal_incidence": 0.06,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.48,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.57
+    },
+    "BRONZE 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.054,
+      "back_side_visible_reflectance_at_normal_incidence": 0.057,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.054,
+      "front_side_visible_reflectance_at_normal_incidence": 0.057,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.482,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.534
+    },
+    "CLEAR 2.5MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.075,
+      "back_side_visible_reflectance_at_normal_incidence": 0.081,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.075,
+      "front_side_visible_reflectance_at_normal_incidence": 0.081,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.8,
+      "thickness": 0.0025,
+      "visible_transmittance_at_normal_incidence": 0.901
+    },
+    "CLEAR 3MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.075,
+      "back_side_visible_reflectance_at_normal_incidence": 0.081,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.075,
+      "front_side_visible_reflectance_at_normal_incidence": 0.081,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.837,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.898
+    },
+    "CLEAR 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.071,
+      "back_side_visible_reflectance_at_normal_incidence": 0.08,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.071,
+      "front_side_visible_reflectance_at_normal_incidence": 0.08,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.775,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.881
+    },
+    "COATED POLY-55": {
+      "back_side_infrared_hemispherical_emissivity": 0.72,
+      "back_side_solar_reflectance_at_normal_incidence": 0.593,
+      "back_side_visible_reflectance_at_normal_incidence": 0.375,
+      "conductivity": 0.14,
+      "front_side_infrared_hemispherical_emissivity": 0.046,
+      "front_side_solar_reflectance_at_normal_incidence": 0.582,
+      "front_side_visible_reflectance_at_normal_incidence": 0.336,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.32,
+      "thickness": 0.00051,
+      "visible_transmittance_at_normal_incidence": 0.551
+    },
+    "COATED POLY-77": {
+      "back_side_infrared_hemispherical_emissivity": 0.72,
+      "back_side_solar_reflectance_at_normal_incidence": 0.398,
+      "back_side_visible_reflectance_at_normal_incidence": 0.167,
+      "conductivity": 0.14,
+      "front_side_infrared_hemispherical_emissivity": 0.075,
+      "front_side_solar_reflectance_at_normal_incidence": 0.402,
+      "front_side_visible_reflectance_at_normal_incidence": 0.147,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.504,
+      "thickness": 0.00051,
+      "visible_transmittance_at_normal_incidence": 0.766
+    },
+    "ECABS-2 BLEACHED 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.1,
+      "back_side_solar_reflectance_at_normal_incidence": 0.086,
+      "back_side_visible_reflectance_at_normal_incidence": 0.099,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.086,
+      "front_side_visible_reflectance_at_normal_incidence": 0.099,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.814,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.847
+    },
+    "ECABS-2 COLORED 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.1,
+      "back_side_solar_reflectance_at_normal_incidence": 0.179,
+      "back_side_visible_reflectance_at_normal_incidence": 0.081,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.179,
+      "front_side_visible_reflectance_at_normal_incidence": 0.081,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.111,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.128
+    },
+    "ECREF-1 COLORED 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.219,
+      "back_side_visible_reflectance_at_normal_incidence": 0.073,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.219,
+      "front_side_visible_reflectance_at_normal_incidence": 0.073,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.099,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.155
+    },
+    "ECREF-2 BLEACHED 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.1,
+      "back_side_solar_reflectance_at_normal_incidence": 0.168,
+      "back_side_visible_reflectance_at_normal_incidence": 0.11,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.168,
+      "front_side_visible_reflectance_at_normal_incidence": 0.11,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.694,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.818
+    },
+    "ECREF-2 COLORED 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.1,
+      "back_side_solar_reflectance_at_normal_incidence": 0.219,
+      "back_side_visible_reflectance_at_normal_incidence": 0.073,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.219,
+      "front_side_visible_reflectance_at_normal_incidence": 0.073,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.099,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.155
+    },
+    "GREEN 3MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.063,
+      "back_side_visible_reflectance_at_normal_incidence": 0.075,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.063,
+      "front_side_visible_reflectance_at_normal_incidence": 0.075,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.635,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.822
+    },
+    "GREEN 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.056,
+      "back_side_visible_reflectance_at_normal_incidence": 0.07,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.056,
+      "front_side_visible_reflectance_at_normal_incidence": 0.07,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.487,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.749
+    },
+    "GREY 3MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.061,
+      "back_side_visible_reflectance_at_normal_incidence": 0.061,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.061,
+      "front_side_visible_reflectance_at_normal_incidence": 0.061,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.626,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.611
+    },
+    "GREY 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.053,
+      "back_side_visible_reflectance_at_normal_incidence": 0.052,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.053,
+      "front_side_visible_reflectance_at_normal_incidence": 0.052,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.455,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.431
+    },
+    "Glass_102_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.07485449,
+      "back_side_visible_reflectance_at_normal_incidence": 0.082564,
+      "conductivity": 1.0,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.07476376,
+      "front_side_visible_reflectance_at_normal_incidence": 0.082563,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.833848,
+      "thickness": 0.003048,
+      "visible_transmittance_at_normal_incidence": 0.89926
+    },
+    "Glass_12116_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.538265,
+      "back_side_solar_reflectance_at_normal_incidence": 0.2199938,
+      "back_side_visible_reflectance_at_normal_incidence": 0.081654,
+      "conductivity": 1.000345,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.1094601,
+      "front_side_visible_reflectance_at_normal_incidence": 0.182598,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.171874,
+      "thickness": 0.00475,
+      "visible_transmittance_at_normal_incidence": 0.322771
+    },
+    "Glass_1576_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.868,
+      "back_side_solar_reflectance_at_normal_incidence": 0.1825558,
+      "back_side_visible_reflectance_at_normal_incidence": 0.128077,
+      "conductivity": 0.846,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.3034693,
+      "front_side_visible_reflectance_at_normal_incidence": 0.128888,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.167637,
+      "thickness": 0.003058,
+      "visible_transmittance_at_normal_incidence": 0.341994
+    },
+    "Glass_2010F_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.3410654,
+      "back_side_visible_reflectance_at_normal_incidence": 0.056031,
+      "conductivity": 1,
+      "front_side_infrared_hemispherical_emissivity": 0.042274,
+      "front_side_solar_reflectance_at_normal_incidence": 0.4183747,
+      "front_side_visible_reflectance_at_normal_incidence": 0.043577,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.434294,
+      "thickness": 0.00221,
+      "visible_transmittance_at_normal_incidence": 0.797579
+    },
+    "Glass_2022F_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.2656452,
+      "back_side_visible_reflectance_at_normal_incidence": 0.05547,
+      "conductivity": 1,
+      "front_side_infrared_hemispherical_emissivity": 0.046,
+      "front_side_solar_reflectance_at_normal_incidence": 0.3940945,
+      "front_side_visible_reflectance_at_normal_incidence": 0.042734,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.355897,
+      "thickness": 0.0039,
+      "visible_transmittance_at_normal_incidence": 0.677694
+    },
+    "Glass_2027F_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.340935,
+      "back_side_visible_reflectance_at_normal_incidence": 0.073741,
+      "conductivity": 1,
+      "front_side_infrared_hemispherical_emissivity": 0.03675,
+      "front_side_solar_reflectance_at_normal_incidence": 0.4700695,
+      "front_side_visible_reflectance_at_normal_incidence": 0.0546,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.369744,
+      "thickness": 0.004,
+      "visible_transmittance_at_normal_incidence": 0.765222
+    },
+    "Glass_2052_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.05449309,
+      "back_side_visible_reflectance_at_normal_incidence": 0.058397,
+      "conductivity": 1,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.05422805,
+      "front_side_visible_reflectance_at_normal_incidence": 0.05805,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.507767,
+      "thickness": 0.00837,
+      "visible_transmittance_at_normal_incidence": 0.586833
+    },
+    "Glass_2175_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.4379779,
+      "back_side_visible_reflectance_at_normal_incidence": 0.10654,
+      "conductivity": 1,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.2176064,
+      "front_side_visible_reflectance_at_normal_incidence": 0.078729,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.167758,
+      "thickness": 0.0086,
+      "visible_transmittance_at_normal_incidence": 0.416044
+    },
+    "Glass_2531_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.454,
+      "back_side_solar_reflectance_at_normal_incidence": 0.3617666,
+      "back_side_visible_reflectance_at_normal_incidence": 0.232929,
+      "conductivity": 0.934,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.3198325,
+      "front_side_visible_reflectance_at_normal_incidence": 0.25084,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.350556,
+      "thickness": 0.00306,
+      "visible_transmittance_at_normal_incidence": 0.490923
+    },
+    "Glass_2532_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.676,
+      "back_side_solar_reflectance_at_normal_incidence": 0.2732317,
+      "back_side_visible_reflectance_at_normal_incidence": 0.079448,
+      "conductivity": 0.933,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.2268281,
+      "front_side_visible_reflectance_at_normal_incidence": 0.0766,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.340824,
+      "thickness": 0.00306,
+      "visible_transmittance_at_normal_incidence": 0.543814
+    },
+    "Glass_282_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.37,
+      "back_side_solar_reflectance_at_normal_incidence": 0.4058073,
+      "back_side_visible_reflectance_at_normal_incidence": 0.270435,
+      "conductivity": 0.94,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.2956174,
+      "front_side_visible_reflectance_at_normal_incidence": 0.237458,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.352565,
+      "thickness": 0.003251,
+      "visible_transmittance_at_normal_incidence": 0.510046
+    },
+    "Glass_4313_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.298,
+      "back_side_solar_reflectance_at_normal_incidence": 0.09944001,
+      "back_side_visible_reflectance_at_normal_incidence": 0.096992,
+      "conductivity": 1.0,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.07114256,
+      "front_side_visible_reflectance_at_normal_incidence": 0.077225,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.373486,
+      "thickness": 0.00385,
+      "visible_transmittance_at_normal_incidence": 0.6013
+    },
+    "Glass_4321_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.279,
+      "back_side_solar_reflectance_at_normal_incidence": 0.09994167,
+      "back_side_visible_reflectance_at_normal_incidence": 0.094819,
+      "conductivity": 0.814,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.0742419,
+      "front_side_visible_reflectance_at_normal_incidence": 0.072726,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.425947,
+      "thickness": 0.00618,
+      "visible_transmittance_at_normal_incidence": 0.559652
+    },
+    "Glass_8652_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.39,
+      "back_side_solar_reflectance_at_normal_incidence": 0.4621051,
+      "back_side_visible_reflectance_at_normal_incidence": 0.306829,
+      "conductivity": 0.962,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.2989869,
+      "front_side_visible_reflectance_at_normal_incidence": 0.209449,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.343691,
+      "thickness": 0.003059,
+      "visible_transmittance_at_normal_incidence": 0.487937
+    },
+    "Glass_9731_LayerAvg": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.203399,
+      "back_side_visible_reflectance_at_normal_incidence": 0.070696,
+      "conductivity": 0.815,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.2079376,
+      "front_side_visible_reflectance_at_normal_incidence": 0.071115,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.369424,
+      "thickness": 0.01248,
+      "visible_transmittance_at_normal_incidence": 0.710088
+    },
+    "LoE CLEAR 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.1,
+      "back_side_solar_reflectance_at_normal_incidence": 0.22,
+      "back_side_visible_reflectance_at_normal_incidence": 0.078,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.17,
+      "front_side_visible_reflectance_at_normal_incidence": 0.055,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.6,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.84
+    },
+    "LoE SPEC SEL CLEAR 3MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.03,
+      "back_side_solar_reflectance_at_normal_incidence": 0.37,
+      "back_side_visible_reflectance_at_normal_incidence": 0.06,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.34,
+      "front_side_visible_reflectance_at_normal_incidence": 0.07,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.45,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.78
+    },
+    "LoE SPEC SEL CLEAR 6MM Rev": {
+      "back_side_infrared_hemispherical_emissivity": 0.84,
+      "back_side_solar_reflectance_at_normal_incidence": 0.3,
+      "back_side_visible_reflectance_at_normal_incidence": 0.07,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.03,
+      "front_side_solar_reflectance_at_normal_incidence": 0.42,
+      "front_side_visible_reflectance_at_normal_incidence": 0.06,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.43,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.77
+    },
+    "LoE SPEC SEL TINT 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.03,
+      "back_side_solar_reflectance_at_normal_incidence": 0.41,
+      "back_side_visible_reflectance_at_normal_incidence": 0.04,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.14,
+      "front_side_visible_reflectance_at_normal_incidence": 0.06,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.26,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.46
+    },
+    "LoE TINT 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.1,
+      "back_side_solar_reflectance_at_normal_incidence": 0.2,
+      "back_side_visible_reflectance_at_normal_incidence": 0.054,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.093,
+      "front_side_visible_reflectance_at_normal_incidence": 0.035,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.36,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.5
+    },
+    "PYR A CLEAR 3MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.4,
+      "back_side_solar_reflectance_at_normal_incidence": 0.1,
+      "back_side_visible_reflectance_at_normal_incidence": 0.12,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.1,
+      "front_side_visible_reflectance_at_normal_incidence": 0.12,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.75,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.85
+    },
+    "PYR B CLEAR 3MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.2,
+      "back_side_solar_reflectance_at_normal_incidence": 0.1,
+      "back_side_visible_reflectance_at_normal_incidence": 0.12,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.09,
+      "front_side_visible_reflectance_at_normal_incidence": 0.11,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.74,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.82
+    },
+    "PYR B CLEAR 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.2,
+      "back_side_solar_reflectance_at_normal_incidence": 0.1,
+      "back_side_visible_reflectance_at_normal_incidence": 0.12,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.09,
+      "front_side_visible_reflectance_at_normal_incidence": 0.11,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.68,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.81
+    },
+    "REF A CLEAR LO 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.4,
+      "back_side_solar_reflectance_at_normal_incidence": 0.493,
+      "back_side_visible_reflectance_at_normal_incidence": 0.37,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.341,
+      "front_side_visible_reflectance_at_normal_incidence": 0.41,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.066,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.08
+    },
+    "REF A CLEAR MID 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.47,
+      "back_side_solar_reflectance_at_normal_incidence": 0.43,
+      "back_side_visible_reflectance_at_normal_incidence": 0.35,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.27,
+      "front_side_visible_reflectance_at_normal_incidence": 0.31,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.11,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.14
+    },
+    "REF A TINT MID 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.47,
+      "back_side_solar_reflectance_at_normal_incidence": 0.42,
+      "back_side_visible_reflectance_at_normal_incidence": 0.35,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.13,
+      "front_side_visible_reflectance_at_normal_incidence": 0.14,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.06,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.09
+    },
+    "REF B CLEAR HI 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.6,
+      "back_side_solar_reflectance_at_normal_incidence": 0.32,
+      "back_side_visible_reflectance_at_normal_incidence": 0.29,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.16,
+      "front_side_visible_reflectance_at_normal_incidence": 0.16,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.24,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.3
+    },
+    "REF B CLEAR LO 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.58,
+      "back_side_solar_reflectance_at_normal_incidence": 0.38,
+      "back_side_visible_reflectance_at_normal_incidence": 0.33,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.22,
+      "front_side_visible_reflectance_at_normal_incidence": 0.23,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.15,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.2
+    },
+    "REF B TINT HI 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.6,
+      "back_side_solar_reflectance_at_normal_incidence": 0.33,
+      "back_side_visible_reflectance_at_normal_incidence": 0.28,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.09,
+      "front_side_visible_reflectance_at_normal_incidence": 0.08,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.15,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.18
+    },
+    "REF B TINT MID 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.45,
+      "back_side_solar_reflectance_at_normal_incidence": 0.41,
+      "back_side_visible_reflectance_at_normal_incidence": 0.32,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.11,
+      "front_side_visible_reflectance_at_normal_incidence": 0.1,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.1,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.13
+    },
+    "REF C CLEAR HI 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.55,
+      "back_side_solar_reflectance_at_normal_incidence": 0.39,
+      "back_side_visible_reflectance_at_normal_incidence": 0.35,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.16,
+      "front_side_visible_reflectance_at_normal_incidence": 0.17,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.2,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.22
+    },
+    "REF C CLEAR MID 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.51,
+      "back_side_solar_reflectance_at_normal_incidence": 0.42,
+      "back_side_visible_reflectance_at_normal_incidence": 0.38,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.2,
+      "front_side_visible_reflectance_at_normal_incidence": 0.21,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.17,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.19
+    },
+    "REF D CLEAR 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.82,
+      "back_side_solar_reflectance_at_normal_incidence": 0.379,
+      "back_side_visible_reflectance_at_normal_incidence": 0.505,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.308,
+      "front_side_visible_reflectance_at_normal_incidence": 0.453,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.429,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.334
+    },
+    "REF D TINT 6MM": {
+      "back_side_infrared_hemispherical_emissivity": 0.82,
+      "back_side_solar_reflectance_at_normal_incidence": 0.36,
+      "back_side_visible_reflectance_at_normal_incidence": 0.45,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.84,
+      "front_side_solar_reflectance_at_normal_incidence": 0.14,
+      "front_side_visible_reflectance_at_normal_incidence": 0.18,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.3,
+      "thickness": 0.006,
+      "visible_transmittance_at_normal_incidence": 0.25
+    },
+    "Std Clear Acrylic Plastic": {
+      "back_side_infrared_hemispherical_emissivity": 0.9,
+      "back_side_solar_reflectance_at_normal_incidence": 0.05,
+      "back_side_visible_reflectance_at_normal_incidence": 0.05,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.9,
+      "front_side_solar_reflectance_at_normal_incidence": 0.05,
+      "front_side_visible_reflectance_at_normal_incidence": 0.05,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.92,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.92
+    },
+    "Std Diffusing Acrylic Plastic": {
+      "back_side_infrared_hemispherical_emissivity": 0.9,
+      "back_side_solar_reflectance_at_normal_incidence": 0.08,
+      "back_side_visible_reflectance_at_normal_incidence": 0.08,
+      "conductivity": 0.9,
+      "front_side_infrared_hemispherical_emissivity": 0.9,
+      "front_side_solar_reflectance_at_normal_incidence": 0.08,
+      "front_side_visible_reflectance_at_normal_incidence": 0.08,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.9,
+      "thickness": 0.0022,
+      "visible_transmittance_at_normal_incidence": 0.9
+    },
+    "Theoretical Glass 297": {
+      "back_side_infrared_hemispherical_emissivity": 0.9,
+      "back_side_solar_reflectance_at_normal_incidence": 0.574961,
+      "back_side_visible_reflectance_at_normal_incidence": 0.420302,
+      "conductivity": 0.0103561,
+      "front_side_infrared_hemispherical_emissivity": 0.9,
+      "front_side_solar_reflectance_at_normal_incidence": 0.574961,
+      "front_side_visible_reflectance_at_normal_incidence": 0.420302,
+      "infrared_transmittance_at_normal_incidence": 0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.375039,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.529698
+    },
+    "Theoretical Glass 347": {
+      "back_side_infrared_hemispherical_emissivity": 0.9,
+      "back_side_solar_reflectance_at_normal_incidence": 0.634139,
+      "back_side_visible_reflectance_at_normal_incidence": 0.470089,
+      "conductivity": 0.010358,
+      "front_side_infrared_hemispherical_emissivity": 0.9,
+      "front_side_solar_reflectance_at_normal_incidence": 0.634139,
+      "front_side_visible_reflectance_at_normal_incidence": 0.470089,
+      "infrared_transmittance_at_normal_incidence": 0,
+      "optical_data_type": "SpectralAverage",
+      "solar_transmittance_at_normal_incidence": 0.315861,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.479911
+    },
+    "Theoretical Glass [67]": {
+      "back_side_infrared_hemispherical_emissivity": 0.9,
+      "back_side_solar_reflectance_at_normal_incidence": 0.4674,
+      "back_side_visible_reflectance_at_normal_incidence": 0.3284,
+      "conductivity": 0.0199,
+      "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+      "front_side_infrared_hemispherical_emissivity": 0.9,
+      "front_side_solar_reflectance_at_normal_incidence": 0.4674,
+      "front_side_visible_reflectance_at_normal_incidence": 0.3284,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_diffusing": "No",
+      "solar_transmittance_at_normal_incidence": 0.4826,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.6216
+    },
+    "Theoretical Glass [81]": {
+      "back_side_infrared_hemispherical_emissivity": 0.9,
+      "back_side_solar_reflectance_at_normal_incidence": 0.4682,
+      "back_side_visible_reflectance_at_normal_incidence": 0.3284,
+      "conductivity": 0.0303,
+      "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+      "front_side_infrared_hemispherical_emissivity": 0.9,
+      "front_side_solar_reflectance_at_normal_incidence": 0.4682,
+      "front_side_visible_reflectance_at_normal_incidence": 0.3284,
+      "infrared_transmittance_at_normal_incidence": 0.0,
+      "optical_data_type": "SpectralAverage",
+      "solar_diffusing": "No",
+      "solar_transmittance_at_normal_incidence": 0.4818,
+      "thickness": 0.003,
+      "visible_transmittance_at_normal_incidence": 0.6216
+    }
+  },
+  "Zone": {
+    "ZONE ONE": {
+      "ceiling_height": "Autocalculate",
+      "direction_of_relative_north": 0,
+      "multiplier": 1,
+      "type": 1,
+      "volume": "Autocalculate",
+      "x_origin": 0,
+      "y_origin": 0,
+      "z_origin": 0
+    }
+  }
+}
